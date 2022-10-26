@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.site-header {
+    background-color: #1f2937;
+    padding-bottom: 10rem;
+}
+
+.header-nav ul {
+    padding-top: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+.header-nav ul li {
+    margin-left: 3rem;
+    color: #e5e7ebe8;
+    font-size: 18px;
+}
+
+.header-nav .header-logo {
+    margin-top: -0.4rem;
+    margin-left: 15%;
+    flex: 0.7;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+
+.site-header .container {
+    margin-top: 7rem;
+    margin-left: 15%;
+    display: flex;
+}
+
+.sign-up h1 {
+    width: 30rem;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sign-up p {
+    width: 28rem;
+    color: #e5e7ebe8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.site-header .container .sign-up-button {
+    margin-top: 1rem;
+    width: 8rem;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: #3882f6;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.site-header .container .sign-up-button a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.container .image-place {
+    margin-left: 0.5rem;
+    width: 30rem;
+    background-color: rgba(167, 167, 167, 0.733);
+    color: #e5e7ebe8;
+}
+
+.container .image-place p {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+
+
+.information {
+    margin-top: 3rem;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.information h2 {
+    margin-bottom: 2rem;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes .container .box {
+    padding: 4rem;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+}
+
+.boxes .container {
+    margin-right: 3rem;
+}
+
+.boxes .container p {
+    width: 9rem;
+    margin-top: 0.5rem;
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+}
+
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-section div {
+    width: 49rem;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.quote-section div p:first-child {
+    padding-top: 5rem;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-section div p:last-child {
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+
+
+.bottom-sign-up {
+    padding-bottom: 6rem;
+}
+
+.bottom-sign-up .container {
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    width: 80%;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+}
+
+.bottom-sign-up .container .text {
+    margin-top: 3.5rem;
+    margin-left: 13%;
+}
+
+
+.bottom-sign-up .container .sign-up-button {
+    margin-top: 4rem;
+    margin-left: 16rem;
+    width: 8rem;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bottom-sign-up .container .sign-up-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.site-footer {
+    padding-bottom: 3rem;
+    background-color: #1f2937;
+    color:rgb(197, 197, 197);
+    text-align: center;
+}
+
+.site-footer p {
+    padding-top: 3rem;
+}
